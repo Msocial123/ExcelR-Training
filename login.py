@@ -1,3 +1,10 @@
+import tkinter
+from tkinter import messagebox
+window = tkinter.Tk()
+window.title("Login Page using Python")
+window.geometry('750x550')
+window.configure(bg='#8F00FF')
+
 def login():
     username = "makeuseof"
     password = "muo"
